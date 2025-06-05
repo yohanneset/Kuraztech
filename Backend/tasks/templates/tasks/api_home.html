@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task Manager API</title>
+    <style>
+        body {
+        font-family: Arial, sans-serif;
+        margin: 2rem;
+        }
+        h1 {
+        color: #2c3e50;
+        }
+        ul {
+        list-style: none;
+        padding: 0;
+        }
+        li {
+        margin-bottom: 0.5rem;
+        }
+        code {
+        background: #f4f4f4;
+        padding: 2px 6px;
+        border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Task Manager API is Working</h1>
+    <p>You can use the following endpoints to interact with the API:</p>
+
+    <ul>
+        <li><code>GET /api/tasks/</code> — List all tasks</li>
+        <li><code>POST /api/tasks/</code> — Create a new task</li>
+        <li><code>GET /api/tasks/&lt;id&gt;/</code> — Retrieve a task</li>
+        <li><code>PUT /api/tasks/&lt;id&gt;/</code> — Update a task</li>
+        <li><code>PATCH /api/tasks/&lt;id&gt;/</code> — Partially update a task</li>
+        <li><code>DELETE /api/tasks/&lt;id&gt;/</code> — Delete a task</li>
+        <li><code>GET /api/tasks/?status=finished</code> — Filter finished tasks</li>
+        <li><code>GET /api/tasks/?status=pending</code> — Filter pending tasks</li>
+    </ul>
+
+    <p>Use an API tool like <strong>Postman</strong>, <strong>Insomnia</strong>, or <strong>cURL</strong> to test the endpoints.</p>
+</body>
+</html>
